@@ -33,6 +33,14 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile("org.springframework.boot:spring-boot-starter-mail")
+	compile("org.springframework.boot:spring-boot-starter-velocity")
+	// https://mvnrepository.com/artifact/org.apache.velocity/velocity
+//compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
+compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.5.0'
+// https://mvnrepository.com/artifact/org.apache.velocity/velocity
+compile group: 'org.apache.velocity', name: 'velocity', version: '1.6.2'
+
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
